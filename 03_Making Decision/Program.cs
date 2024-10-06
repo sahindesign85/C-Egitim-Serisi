@@ -318,7 +318,7 @@ namespace _03_Making_Decision
 
             #endregion
 
-            #region Switch Case Hesap Makinesi
+            #region Switch Case Hesap Makinesi Yapımı
 
             //int number1, number2, result;
             //char symbol;
@@ -363,6 +363,8 @@ namespace _03_Making_Decision
 
 
             #endregion
+
+            
             Console.Read();
         }
     }
