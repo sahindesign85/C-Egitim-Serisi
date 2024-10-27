@@ -49,7 +49,7 @@ namespace _08_Methods
 
             #endregion
 
-            #region Geriye Değer Döndürmen String Parametreli Metotlar
+            #region Geriye Değer Döndürmeyen String Parametreli Metotlar
 
             //void WriteMethod(string customerName)
             //{ 
