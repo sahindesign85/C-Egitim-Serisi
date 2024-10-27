@@ -119,6 +119,28 @@ Bu projede veritabanı işlemlerine geçiş yaptık. Artık veritabanını progr
 |:-------------------: | :----------------------------------------:|
 | SQL | SQL is a standard language for accessing and manipulating databases. |
 
+***
+
+### 🔶  Proje 10: C#'da CRUD işlemleri - *The Project 10: _In C# CRUD Operations_
+
+Bu projede CRUD işlemlerini öğrendim. Yani oluşturma, okuma, güncelleme ve silme işlemleri. Aynı zamanda bu işlemleri veri tabanına yansıttık.
+
+
+> _In this project, I have learned CRUD operations. So those are Create, Read, Update and Delete operations also we reflected to our database._
+
+|      Contents        |              Meaning                      |
+|:-------------------: | :----------------------------------------:|
+| select | A query, to list table using in SQL.  |
+| insert | A query, to add a value inside table using in SQL.  |
+| update | A query, to update a value in table using in SQL.  |
+| delete | A query, to delete a value in table using in SQL.  |
+| ```SqlConnection connection = new SqlConnection ("database name")``` | creating a class to connect database.    |
+| ```connection.Open();``` | opening for database.|
+| ```SqlCommand command = new SqlCommand( "insert into TblCategory (CategoryName) values (@p1)", connection );``` | a row to create a query.|
+| ```command.Parameters.AddWithValue("@p1", categoryName );``` | casting the value.|
+| ```command.ExecuteNonQuery();``` | running the query.|
+| ```connection.Close();``` | closing for database.|
+
 > [!Note]
 > Bu dersler ve Murat bey sayesinde C# hakkında çok bilgi ediniyorum. Murat beye ayrıca teşekkür ederim.
 > 
